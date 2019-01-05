@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5D04591B142E6B0053D2D0 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5D04581B142E6B0053D2D0 /* AAPLAppDelegate.m */; };
+		CF5D045C1B142E6B0053D2D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5D045B1B142E6B0053D2D0 /* main.m */; };
+		CF5D045E1B142E6B0053D2D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5D045D1B142E6B0053D2D0 /* Images.xcassets */; };
+		CF5D04611B142E6C0053D2D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5D045F1B142E6C0053D2D0 /* MainMenu.xib */; };
+		CFC887781B142EA20027B6FB /* AAPLDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC887771B142EA20027B6FB /* AAPLDrawingView.m */; };
+		CFC8877B1B142ED90027B6FB /* AAPLAlignmentGuidesView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC8877A1B142ED90027B6FB /* AAPLAlignmentGuidesView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E67195B1B1CFD7600E01959 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CF5D04541B142E6B0053D2D0 /* AlignmentGuides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlignmentGuides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5D04571B142E6B0053D2D0 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
+		CF5D04581B142E6B0053D2D0 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
+		CF5D045B1B142E6B0053D2D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF5D045D1B142E6B0053D2D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF5D04601B142E6C0053D2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF5D04621B142E6C0053D2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC887761B142EA20027B6FB /* AAPLDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLDrawingView.h; sourceTree = "<group>"; };
+		CFC887771B142EA20027B6FB /* AAPLDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLDrawingView.m; sourceTree = "<group>"; };
+		CFC887791B142ED90027B6FB /* AAPLAlignmentGuidesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLAlignmentGuidesView.h; sourceTree = "<group>"; };
+		CFC8877A1B142ED90027B6FB /* AAPLAlignmentGuidesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLAlignmentGuidesView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5D04511B142E6B0053D2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5D044B1B142E6B0053D2D0 = {
+			isa = PBXGroup;
+			children = (
+				3E67195B1B1CFD7600E01959 /* README.md */,
+				CF5D04561B142E6B0053D2D0 /* AlignmentFilterSample */,
+				CF5D04551B142E6B0053D2D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5D04551B142E6B0053D2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D04541B142E6B0053D2D0 /* AlignmentGuides.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5D04561B142E6B0053D2D0 /* AlignmentFilterSample */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D04571B142E6B0053D2D0 /* AAPLAppDelegate.h */,
+				CF5D04581B142E6B0053D2D0 /* AAPLAppDelegate.m */,
+				CFC887791B142ED90027B6FB /* AAPLAlignmentGuidesView.h */,
+				CFC8877A1B142ED90027B6FB /* AAPLAlignmentGuidesView.m */,
+				CFC887761B142EA20027B6FB /* AAPLDrawingView.h */,
+				CFC887771B142EA20027B6FB /* AAPLDrawingView.m */,
+				CF5D045D1B142E6B0053D2D0 /* Images.xcassets */,
+				CF5D045F1B142E6C0053D2D0 /* MainMenu.xib */,
+				CF5D04621B142E6C0053D2D0 /* Info.plist */,
+				CF5D045A1B142E6B0053D2D0 /* Supporting Files */,
+			);
+			name = AlignmentFilterSample;
+			path = AlignmentGuides;
+			sourceTree = "<group>";
+		};
+		CF5D045A1B142E6B0053D2D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D045B1B142E6B0053D2D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5D04531B142E6B0053D2D0 /* AlignmentGuides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5D04701B142E6C0053D2D0 /* Build configuration list for PBXNativeTarget "AlignmentGuides" */;
+			buildPhases = (
+				CF5D04501B142E6B0053D2D0 /* Sources */,
+				CF5D04511B142E6B0053D2D0 /* Frameworks */,
+				CF5D04521B142E6B0053D2D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlignmentGuides;
+			productName = AlignmentFilterSample;
+			productReference = CF5D04541B142E6B0053D2D0 /* AlignmentGuides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5D044C1B142E6B0053D2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					CF5D04531B142E6B0053D2D0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CF5D044F1B142E6B0053D2D0 /* Build configuration list for PBXProject "AlignmentGuides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5D044B1B142E6B0053D2D0;
+			productRefGroup = CF5D04551B142E6B0053D2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5D04531B142E6B0053D2D0 /* AlignmentGuides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5D04521B142E6B0053D2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5D045E1B142E6B0053D2D0 /* Images.xcassets in Resources */,
+				CF5D04611B142E6C0053D2D0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5D04501B142E6B0053D2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC8877B1B142ED90027B6FB /* AAPLAlignmentGuidesView.m in Sources */,
+				CF5D045C1B142E6B0053D2D0 /* main.m in Sources */,
+				CF5D04591B142E6B0053D2D0 /* AAPLAppDelegate.m in Sources */,
+				CFC887781B142EA20027B6FB /* AAPLDrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF5D045F1B142E6C0053D2D0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5D04601B142E6C0053D2D0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF5D046E1B142E6C0053D2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF5D046F1B142E6C0053D2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF5D04711B142E6C0053D2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlignmentGuides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AlignmentGuides";
+				PRODUCT_NAME = AlignmentGuides;
+			};
+			name = Debug;
+		};
+		CF5D04721B142E6C0053D2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlignmentGuides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AlignmentGuides";
+				PRODUCT_NAME = AlignmentGuides;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5D044F1B142E6B0053D2D0 /* Build configuration list for PBXProject "AlignmentGuides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5D046E1B142E6C0053D2D0 /* Debug */,
+				CF5D046F1B142E6C0053D2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5D04701B142E6C0053D2D0 /* Build configuration list for PBXNativeTarget "AlignmentGuides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5D04711B142E6C0053D2D0 /* Debug */,
+				CF5D04721B142E6C0053D2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF5D044C1B142E6B0053D2D0 /* Project object */;
+}

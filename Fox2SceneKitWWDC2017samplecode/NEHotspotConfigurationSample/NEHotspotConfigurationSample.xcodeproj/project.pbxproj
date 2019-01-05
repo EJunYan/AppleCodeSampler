@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E47897881FAA32440088C779 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47897871FAA32440088C779 /* NetworkExtension.framework */; };
+		E4A5E1131F39D57E00B17139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A5E1121F39D57E00B17139 /* LaunchScreen.storyboard */; };
+		E4A5E1151F39D57E00B17139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A5E1141F39D57E00B17139 /* Main.storyboard */; };
+		E4A5E1171F39D57E00B17139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E1161F39D57E00B17139 /* AppDelegate.swift */; };
+		E4A5E1191F39D57E00B17139 /* HotspotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E1181F39D57E00B17139 /* HotspotsViewController.swift */; };
+		E4A5E1201F39D99300B17139 /* HotspotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E11F1F39D99300B17139 /* HotspotManager.swift */; };
+		E4A5E1261F39DF2200B17139 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E1251F39DF2200B17139 /* AddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E477A63C1F3A1A8E00CF62A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
+		E477A63D1F3A1A8E00CF62A6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		E47897871FAA32440088C779 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		E4A5E10E1F39D57E00B17139 /* NEHotspotConfigurationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEHotspotConfigurationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A5E1111F39D57E00B17139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A5E1121F39D57E00B17139 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4A5E1141F39D57E00B17139 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E4A5E1161F39D57E00B17139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4A5E1181F39D57E00B17139 /* HotspotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotspotsViewController.swift; sourceTree = "<group>"; };
+		E4A5E11F1F39D99300B17139 /* HotspotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotspotManager.swift; sourceTree = "<group>"; };
+		E4A5E1211F39DAE800B17139 /* NEHotspotConfigurationSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NEHotspotConfigurationSample.entitlements; sourceTree = "<group>"; };
+		E4A5E1251F39DF2200B17139 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4A5E10B1F39D57E00B17139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47897881FAA32440088C779 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E47897861FAA32440088C779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47897871FAA32440088C779 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4A5E1051F39D57E00B17139 = {
+			isa = PBXGroup;
+			children = (
+				E477A63C1F3A1A8E00CF62A6 /* README.md */,
+				E477A63D1F3A1A8E00CF62A6 /* LICENSE.txt */,
+				E4A5E1101F39D57E00B17139 /* NEHotspotConfigurationSample */,
+				E47897861FAA32440088C779 /* Frameworks */,
+				E4A5E10F1F39D57E00B17139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4A5E10F1F39D57E00B17139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5E10E1F39D57E00B17139 /* NEHotspotConfigurationSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4A5E1101F39D57E00B17139 /* NEHotspotConfigurationSample */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5E1211F39DAE800B17139 /* NEHotspotConfigurationSample.entitlements */,
+				E4A5E1111F39D57E00B17139 /* Info.plist */,
+				E4A5E1121F39D57E00B17139 /* LaunchScreen.storyboard */,
+				E4A5E1141F39D57E00B17139 /* Main.storyboard */,
+				E4A5E1161F39D57E00B17139 /* AppDelegate.swift */,
+				E4A5E1181F39D57E00B17139 /* HotspotsViewController.swift */,
+				E4A5E1251F39DF2200B17139 /* AddViewController.swift */,
+				E4A5E11F1F39D99300B17139 /* HotspotManager.swift */,
+			);
+			path = NEHotspotConfigurationSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4A5E10D1F39D57E00B17139 /* NEHotspotConfigurationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5E11C1F39D57E00B17139 /* Build configuration list for PBXNativeTarget "NEHotspotConfigurationSample" */;
+			buildPhases = (
+				E4A5E10A1F39D57E00B17139 /* Sources */,
+				E4A5E10B1F39D57E00B17139 /* Frameworks */,
+				E4A5E10C1F39D57E00B17139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEHotspotConfigurationSample;
+			productName = NEHotspotConfigurationSample;
+			productReference = E4A5E10E1F39D57E00B17139 /* NEHotspotConfigurationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4A5E1061F39D57E00B17139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					E4A5E10D1F39D57E00B17139 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						SystemCapabilities = {
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E4A5E1091F39D57E00B17139 /* Build configuration list for PBXProject "NEHotspotConfigurationSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4A5E1051F39D57E00B17139;
+			productRefGroup = E4A5E10F1F39D57E00B17139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4A5E10D1F39D57E00B17139 /* NEHotspotConfigurationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4A5E10C1F39D57E00B17139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5E1131F39D57E00B17139 /* LaunchScreen.storyboard in Resources */,
+				E4A5E1151F39D57E00B17139 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4A5E10A1F39D57E00B17139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5E1171F39D57E00B17139 /* AppDelegate.swift in Sources */,
+				E4A5E1201F39D99300B17139 /* HotspotManager.swift in Sources */,
+				E4A5E1261F39DF2200B17139 /* AddViewController.swift in Sources */,
+				E4A5E1191F39D57E00B17139 /* HotspotsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4A5E11A1F39D57E00B17139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E4A5E11B1F39D57E00B17139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E4A5E11D1F39D57E00B17139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NEHotspotConfigurationSample/NEHotspotConfigurationSample.entitlements;
+				DEVELOPMENT_TEAM = SKMME9E2Y8;
+				INFOPLIST_FILE = NEHotspotConfigurationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.NEHotspotConfigurationSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4A5E11E1F39D57E00B17139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NEHotspotConfigurationSample/NEHotspotConfigurationSample.entitlements;
+				DEVELOPMENT_TEAM = SKMME9E2Y8;
+				INFOPLIST_FILE = NEHotspotConfigurationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.NEHotspotConfigurationSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4A5E1091F39D57E00B17139 /* Build configuration list for PBXProject "NEHotspotConfigurationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A5E11A1F39D57E00B17139 /* Debug */,
+				E4A5E11B1F39D57E00B17139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5E11C1F39D57E00B17139 /* Build configuration list for PBXNativeTarget "NEHotspotConfigurationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A5E11D1F39D57E00B17139 /* Debug */,
+				E4A5E11E1F39D57E00B17139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4A5E1061F39D57E00B17139 /* Project object */;
+}
